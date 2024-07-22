@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Try : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnMouseDown()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Renderer rend = GetComponent<Renderer>();
+        rend.material.color = Random.ColorHSV();
     }
 }
