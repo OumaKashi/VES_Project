@@ -7,6 +7,6 @@ public class Try : MonoBehaviour
     private void OnMouseDown()
     {
         Renderer rend = GetComponent<Renderer>();
-        rend.material.color = Color.red;
+        rend.material.color = Random.ColorHSV();
     }
 }
