@@ -1,0 +1,5 @@
+C:/Users/Oumayma/VES_Project/.utmp/RelWithDebInfo/5v2b6w4r/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Oumayma/VES_Project/.utmp/RelWithDebInfo/5v2b6w4r/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Oumayma/VES_Project/.utmp/RelWithDebInfo/5v2b6w4r/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/Oumayma/VES_Project/.utmp/RelWithDebInfo/5v2b6w4r/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/Oumayma/VES_Project/.utmp/RelWithDebInfo/5v2b6w4r/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
