@@ -137,7 +137,11 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: e93ccb193b9ae274584032c86b9bef83, type: 2}
+  - {fileID: -8098063971969661676, guid: 58f40b12bbc864f3c96c6505a9a1e1e3, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -668,22 +672,22 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   scriptingDefineSymbols:
-    Android: DOTWEEN
-    Bratwurst: DOTWEEN
-    EmbeddedLinux: DOTWEEN
+    Android: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    Bratwurst: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    EmbeddedLinux: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
     GameCoreScarlett: DOTWEEN
-    GameCoreXboxOne: DOTWEEN
+    GameCoreXboxOne: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
     LinuxHeadlessSimulation: DOTWEEN
-    Nintendo Switch: DOTWEEN
-    PS4: DOTWEEN
-    PS5: DOTWEEN
-    QNX: DOTWEEN
-    Standalone: DOTWEEN
-    WebGL: DOTWEEN
+    Nintendo Switch: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    PS4: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    PS5: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    QNX: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
     Windows Store Apps: DOTWEEN
-    XboxOne: DOTWEEN
+    XboxOne: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
     iPhone: DOTWEEN
-    tvOS: DOTWEEN
+    tvOS: DOTWEEN;UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
