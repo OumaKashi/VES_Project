@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 5042e22023f330d49984c559304847c8
   - enabled: 1
     path: Assets/Scenes/ARBookScene.unity
     guid: 4eca27488f8f2eb46b0b3183bed709ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Oumayma/Try_for_VES/TryVES.unity
     guid: 05deea57b34249d47ac5c811f8c1ec50
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/3DVideoScene.unity
     guid: 5b782f05193bab34a91ce3e282beb230
   m_configObjects:
