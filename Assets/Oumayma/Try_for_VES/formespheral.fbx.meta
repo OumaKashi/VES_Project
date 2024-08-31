@@ -3,7 +3,47 @@ guid: 833aca134000d8b47ab3def655684cf6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cement
+    second: {fileID: 2100000, guid: 9c4c67ca98499a849ab82bef591f224c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 56a156bb6a1946e46afbf76924fe9eff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: b5f9560983aa67549a4cc57d2150a17c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Old concrete
+    second: {fileID: 2100000, guid: aa5b73cfb8f750b42bab1b9a15018804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 05103ba9655ea3d49ad20dad4bbc0773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: 94367be5683bac34daf102d3c670ab79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden surface
+    second: {fileID: 2100000, guid: 9d57b473d14d0cb49a578602285109c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete_wall_005
+    second: {fileID: 2100000, guid: ccdbbedbff5ac084bace14f7caf0f18d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
