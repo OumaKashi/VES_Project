@@ -5149,7 +5149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1023376785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 649f7307ffbe13d40999e0c657931ded, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b4ef1df20c0f474abcb9ab5c51b34db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trackedImageManager: {fileID: 730934791}
@@ -5158,6 +5158,8 @@ MonoBehaviour:
   - {fileID: 1461523892695781506, guid: f61a3416e1be76a4e9803167e4305cc0, type: 3}
   - {fileID: 247232167470264342, guid: 72d8fef558fcc1c4d95d92f5171c5d8d, type: 3}
   - {fileID: 4616198110908424635, guid: c6a2686956743f14487e38616d787e7b, type: 3}
+  - {fileID: 2777772244443528302, guid: d22a5634efde5c44f8ee05ed26cbc990, type: 3}
+  objectToDisable: {fileID: 991544692}
 --- !u!1 &1046821818
 GameObject:
   m_ObjectHideFlags: 0

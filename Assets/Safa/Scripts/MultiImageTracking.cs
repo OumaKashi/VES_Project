@@ -7,6 +7,8 @@ public class MultiImageTracking : MonoBehaviour
 {
 	public ARTrackedImageManager trackedImageManager;
 	public List<GameObject> objectPrefabs; // List of object prefabs to be instantiated
+	public GameObject objectToDisable; // The GameObject to disable/enable based on tracking
+
 	private Dictionary<string, GameObject> spawnedObjects = new Dictionary<string, GameObject>();
 
 	void OnEnable()
@@ -23,25 +25,35 @@ public class MultiImageTracking : MonoBehaviour
 	{
 		foreach (ARTrackedImage trackedImage in eventArgs.added)
 		{
-			// When a new image is detected
 			UpdateTrackedImage(trackedImage);
 		}
 
 		foreach (ARTrackedImage trackedImage in eventArgs.updated)
 		{
-			// When an existing image is updated (e.g., position or rotation changes)
 			UpdateTrackedImage(trackedImage);
 		}
 
 		foreach (ARTrackedImage trackedImage in eventArgs.removed)
 		{
-			// When an image is removed from tracking
 			if (spawnedObjects.ContainsKey(trackedImage.referenceImage.name))
 			{
 				Destroy(spawnedObjects[trackedImage.referenceImage.name]);
 				spawnedObjects.Remove(trackedImage.referenceImage.name);
 			}
 		}
+
+		// Enable the object if no images are being tracked
+		bool anyImageTracking = false;
+		foreach (ARTrackedImage trackedImage in trackedImageManager.trackables)
+		{
+			if (trackedImage.trackingState == TrackingState.Tracking)
+			{
+				anyImageTracking = true;
+				break;
+			}
+		}
+
+		objectToDisable.SetActive(!anyImageTracking);
 	}
 
 	private void UpdateTrackedImage(ARTrackedImage trackedImage)
@@ -51,7 +63,7 @@ public class MultiImageTracking : MonoBehaviour
 		// Check if the object is already instantiated for this image
 		if (!spawnedObjects.ContainsKey(imageName))
 		{
-			// Instantiate the corresponding object
+			// Instantiate the corresponding object if it matches the image name
 			foreach (var prefab in objectPrefabs)
 			{
 				if (prefab.name == imageName)
@@ -72,6 +84,15 @@ public class MultiImageTracking : MonoBehaviour
 		}
 
 		// Enable or disable the object based on the tracking state
-		spawnedObjects[imageName].SetActive(trackedImage.trackingState == TrackingState.Tracking);
+		if (spawnedObjects.ContainsKey(imageName))
+		{
+			spawnedObjects[imageName].SetActive(trackedImage.trackingState == TrackingState.Tracking);
+		}
+
+		// Disable the specified GameObject when the image is tracked
+		if (trackedImage.trackingState == TrackingState.Tracking)
+		{
+			objectToDisable.SetActive(false);
+		}
 	}
 }
