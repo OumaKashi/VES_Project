@@ -7,7 +7,6 @@ using TMPro;
 public class SelectionManager : MonoBehaviour
 {
     public static SelectionManager instance;
-    public Action<SelectableItem> OnSelect;
 
     public Material selectionMaterial;
 
@@ -27,17 +26,7 @@ public class SelectionManager : MonoBehaviour
         instance = this;
     }
 
-    private void OnEnable()
-    {
-        OnSelect += AssignName;
-    }
-
-    private void OnDisable()
-    {
-        OnSelect -= AssignName;
-    }
-
-    private void AssignName(SelectableItem selectableItem)
+    public void AssignName(SelectableItem selectableItem)
     {
         if (IsCanvasActive == false)
         {
@@ -46,12 +35,14 @@ public class SelectionManager : MonoBehaviour
         foreach (var item in listOfSelectableItems)
         {
             var isThisSelected = selectableItem == item;
-            var currentMaterial = item.initialMaterial;
             if (isThisSelected == true)
             {
-                currentMaterial = selectionMaterial;
+                item.SetAllMaterials(selectionMaterial);
             }
-            item.meshRenderer.material = currentMaterial;
+            else
+            {
+                item.ResetAllMaterials();
+            }
         }
 
         _nameTMP.text = selectableItem.name;
@@ -62,12 +53,11 @@ public class SelectionManager : MonoBehaviour
         listOfSelectableItems.Add(selectableItem);
     }
 
-    public void DeselectItems()
+    public void AssignNullSelectable()
     {
         foreach (var item in listOfSelectableItems)
         {
-            item.meshRenderer.material = item.initialMaterial;
+            item.ResetAllMaterials();
         }
-        _nameTMP.text = string.Empty;
     }
 }
