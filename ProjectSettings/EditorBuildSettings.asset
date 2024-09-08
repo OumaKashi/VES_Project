@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Oumayma/Try_for_VES/TryVES.unity
     guid: 05deea57b34249d47ac5c811f8c1ec50
   - enabled: 1
-    path: Assets/Scenes/3DVideoScene.unity
+    path: Assets/Scenes/3DVideoSceneVide.unity
     guid: 5b782f05193bab34a91ce3e282beb230
   - enabled: 1
     path: Assets/Scenes/Test.unity
