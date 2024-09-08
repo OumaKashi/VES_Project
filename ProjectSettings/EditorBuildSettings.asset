@@ -5,23 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 5042e22023f330d49984c559304847c8
   - enabled: 1
     path: Assets/Scenes/ARBookScene.unity
     guid: 4eca27488f8f2eb46b0b3183bed709ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Oumayma/Try_for_VES/TryVES.unity
     guid: 05deea57b34249d47ac5c811f8c1ec50
-
   - enabled: 1
-    path: Assets/Scenes/3DVideoSceneVide.unity
-
-    guid: 5b782f05193bab34a91ce3e282beb230
-  - enabled: 1
-    path: Assets/Scenes/Test.unity
-    guid: 468f2de28d2f2a44780b91a76c2c5efc
+    path: Assets/Youssef/Youssef/3DVideoScene.unity
+    guid: d75a0ab4df89b50418ce0a279abdab30
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
