@@ -4,6 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Youssef/Youssef/Scenes/3DVideoHomePage.unity
+    guid: 8a6347d603f4c64488258c2d1ef06043
+  - enabled: 1
+    path: Assets/Youssef/Youssef/Scenes/3DVideoScene.unity
+    guid: d75a0ab4df89b50418ce0a279abdab30
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 5042e22023f330d49984c559304847c8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

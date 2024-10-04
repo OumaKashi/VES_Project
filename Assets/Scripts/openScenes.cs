@@ -32,6 +32,6 @@ public class openScenes : MonoBehaviour
 
     public void openVideoScene()
     {
-        SceneManager.LoadScene("3DVideoScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("3DVideoHomePage", LoadSceneMode.Single);
     }
 }
