@@ -27,7 +27,7 @@ public class openScenes : MonoBehaviour
 
     public void openARbookScene()
     {
-        SceneManager.LoadScene("ARBookScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("ARBookScene2", LoadSceneMode.Single);
     }
 
     public void openVideoScene()
