@@ -39,7 +39,7 @@ public class VideoControl : MonoBehaviour
     {
         restartButton.SetActive(true); // Show the button
     }
-     
+
     public void OnRestartButtonClick()
     {
         // Restart the video
