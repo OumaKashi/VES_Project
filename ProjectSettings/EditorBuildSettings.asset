@@ -4,47 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 5042e22023f330d49984c559304847c8
-<<<<<<< HEAD
-=======
-  - enabled: 1
-    path: Assets/Safa/ARBookScene2.unity
-    guid: 5b5a9c0ceea3a874181696a27a69f2f8
-<<<<<<< HEAD
->>>>>>> Fixing
-=======
->>>>>>> acefeaf (fixed errors and added materials)
-  - enabled: 0
-    path: Assets/Scenes/ARBookScene.unity
-    guid: 4eca27488f8f2eb46b0b3183bed709ee
-  - enabled: 0
-    path: Assets/Oumayma/Try_for_VES/TryVES.unity
-    guid: 05deea57b34249d47ac5c811f8c1ec50
-  - enabled: 1
-    path: Assets/Youssef/Youssef/3DVideoScene.unity
-    guid: d75a0ab4df89b50418ce0a279abdab30
-  m_configObjects:
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
-      type: 2}
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0,
-      type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069,
-      type: 2}
-    com.unity.input.settings: {fileID: 11400000, guid: 4108eba731b623c4ca2c6b53e3eb8574,
-      type: 2}
-    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
-      type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e93ccb193b9ae274584032c86b9bef83,
-      type: 2}
-    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: b27ec7d82a91a48e69fd689ad6808e5e,
-      type: 2}
-    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 1eb95d77acb39444e8cf44313496a874,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58f40b12bbc864f3c96c6505a9a1e1e3,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6bb381a8ba31f114d9724357633b4625,
-      type: 2}
+  m_Scenes: []
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
