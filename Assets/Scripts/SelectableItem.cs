@@ -22,7 +22,7 @@ public class SelectableItem : MonoBehaviour
     private void OnMouseDown()
     {
         SelectionManager.instance.AssignName(this);
-        //Debug.Log("Mouse On " + gameObject.name);
+        Debug.Log("Mouse On " + gameObject.name);
     }
 
     public void SetAllMaterials(Material mat)

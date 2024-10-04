@@ -11,10 +11,13 @@ EditorBuildSettings:
 <<<<<<< HEAD
 =======
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Safa/ARBookScene2.unity
     guid: 5b5a9c0ceea3a874181696a27a69f2f8
 >>>>>>> Fixing
   - enabled: 0
+=======
+>>>>>>> parent of acefeaf (fixed errors and added materials)
     path: Assets/Scenes/ARBookScene.unity
     guid: 4eca27488f8f2eb46b0b3183bed709ee
   - enabled: 0
