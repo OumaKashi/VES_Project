@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
-	public void ArScene()
-	{
-		SceneManager.LoadScene("ARBookScene");
-	}
-	public void MenuScene()
-	{
-		SceneManager.LoadScene("MainScene");
-	}
-		
+    public void ArScene()
+    {
+        SceneManager.LoadScene("ARBookScene2");
+    }
+
+    public void MenuScene()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
 }
